@@ -1,0 +1,13 @@
+#header {
+    color: rgb(59, 59, 255);
+    background-color: lightgreen;
+    border: white 1px solid;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header-items {
+    margin: 0px 30px;
+    cursor: pointer;
+}

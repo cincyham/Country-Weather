@@ -1,0 +1,9 @@
+.App {
+    display: grid;
+    grid-template-rows: 55px 1fr 35px;
+    height: 100%;
+}
+
+Header {
+    grid-row-start: 1;
+}

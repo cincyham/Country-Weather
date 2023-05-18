@@ -1,0 +1,65 @@
+#home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+#filters {
+    align-self: center;
+    color: red;
+    font-size: large;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+#countries-input {
+    background-color: lightgray;
+    border-color: red;
+}
+
+#continent-selection {
+    background-color: lightgray;
+    border: 2px solid red;
+}
+
+option {
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#countries-div {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    height: 150px;
+    width: 225px;
+    background-color: lavender;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+#area-link {
+    display: flex;
+}
+
+.info-element {
+    margin: 0px 10px;
+    margin-bottom: 7px;
+}
+
+#country-name {
+    margin-bottom: 10px;
+}

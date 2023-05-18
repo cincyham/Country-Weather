@@ -1,0 +1,21 @@
+html {
+  height: 100vh;
+  background-color: #fbf7f5;
+  font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

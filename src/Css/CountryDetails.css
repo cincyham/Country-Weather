@@ -1,0 +1,116 @@
+/* Main Top Div */
+
+#country-details {
+    text-align: center;
+    color: rgb(141, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Div containing content of the page with the 'Show Weather' button */
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+/* Country Information title */
+
+#country-details-title {
+    color: blue;
+}
+
+/* Show Weather Text Button */
+
+#show-weather-text {
+    align-self: center;
+    color: aqua;
+    cursor: pointer;
+}
+
+/* Div containing the Weather and Country Info */
+
+#country-weather {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* Div with all the Country information, directly contains the Name */
+
+#detail-div {
+    height: 55vh;
+    width: 35vw;
+    min-width: 150px;
+    background-color: lightgray;
+    border: gray 1px solid;
+    border-radius: 10%;
+    overflow: auto;
+    box-shadow: 5px 5px 8px 5px rgba(0,0,0,.8);
+}
+
+/* Containing the items of the country */
+
+#items-div {
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-item {
+    flex-basis: 45%;
+}
+
+/* Div containing the weather info */
+
+#weather-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    height: 55vh;
+    width: 27vw;
+    min-width: 150px;
+    border-radius: 15%;
+    border: 1px solid black;
+    overflow: auto;
+    box-shadow: 5px 5px 8px 5px rgba(0,0,0,.8);
+    color: red;
+}
+
+#weather-items {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 550px) {
+
+    #content {
+        margin: 20px 0;
+    }
+
+    #show-weather-text {
+        margin-top: 20px;
+    }
+    
+    #country-weather {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #detail-div {
+        margin-bottom: 30px;
+    }
+}
